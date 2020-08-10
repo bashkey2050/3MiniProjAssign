@@ -1,0 +1,21 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    password: '0615565968'
+    url: jdbc:oracle:thin:@localhost:1521:orc
+    username: system
+
+  h2:
+    console:
+      enabled: true
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        
+        
+        
+        
